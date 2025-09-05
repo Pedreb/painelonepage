@@ -4,6 +4,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 import numpy as np
+import openpyxl
 
 # Configuração da página
 st.set_page_config(
@@ -509,4 +510,5 @@ with st.sidebar:
     - ✅ **Sucesso:** ≥ 100% da meta
     - ⚠️ **Atenção:** 80-99% da meta  
     - 🔴 **Crítico:** < 80% da meta
+
     """)
